@@ -3,7 +3,7 @@ import http from 'http';
 import cors from 'cors';
 import { WebSocketServer } from 'ws';
 import { RedisStorage } from './storage.js';
-import { handleWSConnection } from './ai/index.js';
+import { handleWSConnection } from './ai/test.ts';
 import dotenv from 'dotenv';
 import { logger } from './utils/logger.ts';
 import os from 'os';
